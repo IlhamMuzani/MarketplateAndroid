@@ -33,7 +33,7 @@ class NavigationActivity : AppCompatActivity() {
                 R.id.navigation_keranjang
             )
         )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+//        setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         navView.setOnItemSelectedListener {
 
