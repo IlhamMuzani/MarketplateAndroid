@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
+        android:id="@+id/navigation_keranjang"
+        android:name="com.ilham.marketplace.ui.keranjang.KeranjangFragment"
+        android:label="Keranjang"
+        tools:layout="@layout/fragment_keranjang" />
+
+    <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.ilham.marketplace.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
